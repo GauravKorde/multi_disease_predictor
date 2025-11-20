@@ -9,9 +9,10 @@ MODEL_DIR = "models"
 
 
 # Load models safely with absolute paths
-diabetes_model = joblib.load(f"{MODEL_DIR}/diabetes_model.pkl")
-heart_model = joblib.load(f"{MODEL_DIR}/heart_model.pkl")
-liver_model = joblib.load(f"{MODEL_DIR}/liver_model.pkl")
+diabetes_model = joblib.load(os.path.join(MODEL_DIR, "diabetes_DecisionTree_tuned.pkl"))
+heart_model = joblib.load(os.path.join(MODEL_DIR, "heart_CatBoost_tuned.pkl"))
+liver_model = joblib.load(os.path.join(MODEL_DIR, "Liver_RandomForest.pkl"))
+
 
 
 
