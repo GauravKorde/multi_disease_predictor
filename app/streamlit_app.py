@@ -3,13 +3,15 @@ import pandas as pd
 import os
 import joblib
 
+# Absolute base directory of this file (streamlit_app.py)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, "..", "models")
+
+# Models folder located at: multi_disease_predictor/models
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 diabetes_model = joblib.load(os.path.join(MODEL_DIR, "diabetes_DecisionTree_tuned.pkl"))
-heart_model = joblib.load(os.path.join(MODEL_DIR, "heart_CatBoost_tuned.pkl"))
-liver_model = joblib.load(os.path.join(MODEL_DIR, "Liver_RandomForest.pkl"))
-
+heart_model    = joblib.load(os.path.join(MODEL_DIR, "heart_CatBoost_tuned.pkl"))
+liver_model    = joblib.load(os.path.join(MODEL_DIR, "Liver_RandomForest.pkl"))
 
 
 
