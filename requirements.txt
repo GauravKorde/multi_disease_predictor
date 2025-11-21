@@ -4,3 +4,4 @@ numpy
 scikit-learn
 joblib
 xgboost
+python-3.10
