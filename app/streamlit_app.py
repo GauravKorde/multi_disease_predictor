@@ -1,17 +1,15 @@
 import streamlit as st
 import pandas as pd
-import joblib
 import os
+import joblib
 
-# Automatically detect BASE PATH no matter where streamlit is executed
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = "models"
+MODEL_DIR = os.path.join(BASE_DIR, "..", "models")
 
+diabetes_model = joblib.load(os.path.join(MODEL_DIR, "diabetes_DecisionTree_tuned.pkl"))
+heart_model = joblib.load(os.path.join(MODEL_DIR, "heart_CatBoost_tuned.pkl"))
+liver_model = joblib.load(os.path.join(MODEL_DIR, "Liver_RandomForest.pkl"))
 
-# Load models safely with absolute paths
-diabetes_model = joblib.load(os.path.join(MODEL_DIR, "../models_best/diabetes_GradientBoosting.pkl"))
-heart_model = joblib.load(os.path.join(MODEL_DIR, "../models_best/heart_SVM.pkl"))
-liver_model = joblib.load(os.path.join(MODEL_DIR, "../models_best/liver_RandomForest.pkl"))
 
 
 
