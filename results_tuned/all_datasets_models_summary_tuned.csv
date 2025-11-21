@@ -1,0 +1,21 @@
+dataset,model,best_params,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc
+Diabetes,LogisticRegression,"{""clf__C"": 0.05, ""clf__penalty"": ""l2"", ""clf__solver"": ""liblinear""}",0.7012987012987013,0.5833333333333334,0.5185185185185185,0.5490196078431373,0.8198148148148148
+Diabetes,GaussianNB,"{""clf__var_smoothing"": 1e-09}",0.7077922077922078,0.5737704918032787,0.6481481481481481,0.6086956521739131,0.7727777777777778
+Diabetes,KNN,"{""clf__n_neighbors"": 5, ""clf__p"": 2, ""clf__weights"": ""uniform""}",0.7012987012987013,0.5833333333333334,0.5185185185185185,0.5490196078431373,0.7404629629629629
+Diabetes,DecisionTree,"{""clf__criterion"": ""entropy"", ""clf__max_depth"": 5, ""clf__min_samples_leaf"": 2, ""clf__min_samples_split"": 6}",0.7922077922077922,0.6964285714285714,0.7222222222222222,0.7090909090909091,0.782685185185185
+Diabetes,RandomForest,"{""clf__max_depth"": null, ""clf__max_features"": 0.6, ""clf__min_samples_leaf"": 4, ""clf__n_estimators"": 400}",0.7662337662337663,0.6956521739130435,0.5925925925925926,0.64,0.8238888888888889
+Diabetes,GradientBoosting,"{""clf__learning_rate"": 0.03, ""clf__max_depth"": 3, ""clf__n_estimators"": 700}",0.7532467532467533,0.6538461538461539,0.6296296296296297,0.6415094339622641,0.8275925925925927
+Diabetes,XGBoost,"{""clf__colsample_bytree"": 1.0, ""clf__learning_rate"": 0.03, ""clf__max_depth"": 5, ""clf__n_estimators"": 200, ""clf__subsample"": 0.8}",0.7662337662337663,0.6730769230769231,0.6481481481481481,0.660377358490566,0.8261111111111111
+Diabetes,LightGBM,"{""clf__learning_rate"": 0.01, ""clf__n_estimators"": 400, ""clf__num_leaves"": 31, ""clf__subsample"": 0.6}",0.7597402597402597,0.6808510638297872,0.5925925925925926,0.6336633663366337,0.8253703703703703
+Diabetes,CatBoost,"{""clf__depth"": 8, ""clf__iterations"": 200, ""clf__learning_rate"": 0.01}",0.7337662337662337,0.6444444444444445,0.5370370370370371,0.5858585858585859,0.8207407407407408
+Diabetes,SVM,"{""clf__C"": 50, ""clf__gamma"": 0.001, ""clf__kernel"": ""rbf""}",0.7207792207792207,0.6222222222222222,0.5185185185185185,0.5656565656565656,0.8264814814814815
+Heart,LogisticRegression,"{""clf__C"": 0.05, ""clf__penalty"": ""l2"", ""clf__solver"": ""saga""}",0.9,1.0,0.7857142857142857,0.88,0.9419642857142857
+Heart,GaussianNB,"{""clf__var_smoothing"": 1e-09}",0.8666666666666667,1.0,0.7142857142857143,0.8333333333333334,0.9129464285714285
+Heart,KNN,"{""clf__n_neighbors"": 9, ""clf__p"": 1, ""clf__weights"": ""distance""}",0.85,1.0,0.6785714285714286,0.8085106382978723,0.9698660714285714
+Heart,DecisionTree,"{""clf__criterion"": ""entropy"", ""clf__max_depth"": null, ""clf__min_samples_leaf"": 6, ""clf__min_samples_split"": 2}",0.8833333333333333,0.92,0.8214285714285714,0.8679245283018868,0.9034598214285714
+Heart,RandomForest,"{""clf__max_depth"": null, ""clf__max_features"": ""sqrt"", ""clf__min_samples_leaf"": 4, ""clf__n_estimators"": 700}",0.85,0.9130434782608695,0.75,0.8235294117647058,0.9564732142857142
+Heart,GradientBoosting,"{""clf__learning_rate"": 0.01, ""clf__max_depth"": 3, ""clf__n_estimators"": 200}",0.8333333333333334,0.875,0.75,0.8076923076923077,0.8984375
+Heart,XGBoost,"{""clf__colsample_bytree"": 0.8, ""clf__learning_rate"": 0.01, ""clf__max_depth"": 7, ""clf__n_estimators"": 400, ""clf__subsample"": 0.6}",0.85,0.9130434782608695,0.75,0.8235294117647058,0.9575892857142857
+Heart,LightGBM,"{""clf__learning_rate"": 0.1, ""clf__n_estimators"": 200, ""clf__num_leaves"": 31, ""clf__subsample"": 0.6}",0.8333333333333334,0.875,0.75,0.8076923076923077,0.9341517857142857
+Heart,CatBoost,"{""clf__depth"": 6, ""clf__iterations"": 200, ""clf__learning_rate"": 0.01}",0.9333333333333333,1.0,0.8571428571428571,0.9230769230769231,0.9776785714285714
+Heart,SVM,"{""clf__C"": 10, ""clf__gamma"": 0.001, ""clf__kernel"": ""rbf""}",0.9,1.0,0.7857142857142857,0.88,0.9341517857142857

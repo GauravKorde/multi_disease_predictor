@@ -1,0 +1,16 @@
+{
+  "dataset": "Heart",
+  "model": "GradientBoosting",
+  "metrics": {
+    "accuracy": 0.8333333333333334,
+    "precision": 0.875,
+    "recall": 0.75,
+    "f1": 0.8076923076923077,
+    "roc_auc": 0.8984375
+  },
+  "best_params": {
+    "clf__learning_rate": 0.01,
+    "clf__max_depth": 3,
+    "clf__n_estimators": 200
+  }
+}

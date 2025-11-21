@@ -1,0 +1,16 @@
+{
+  "dataset": "Heart",
+  "model": "SVM",
+  "metrics": {
+    "accuracy": 0.9,
+    "precision": 1.0,
+    "recall": 0.7857142857142857,
+    "f1": 0.88,
+    "roc_auc": 0.9341517857142857
+  },
+  "best_params": {
+    "clf__C": 10,
+    "clf__gamma": 0.001,
+    "clf__kernel": "rbf"
+  }
+}

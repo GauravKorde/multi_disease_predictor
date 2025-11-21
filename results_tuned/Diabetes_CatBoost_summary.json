@@ -1,0 +1,16 @@
+{
+  "dataset": "Diabetes",
+  "model": "CatBoost",
+  "metrics": {
+    "accuracy": 0.7337662337662337,
+    "precision": 0.6444444444444445,
+    "recall": 0.5370370370370371,
+    "f1": 0.5858585858585859,
+    "roc_auc": 0.8207407407407408
+  },
+  "best_params": {
+    "clf__depth": 8,
+    "clf__iterations": 200,
+    "clf__learning_rate": 0.01
+  }
+}

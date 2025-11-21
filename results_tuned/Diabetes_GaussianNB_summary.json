@@ -1,0 +1,14 @@
+{
+  "dataset": "Diabetes",
+  "model": "GaussianNB",
+  "metrics": {
+    "accuracy": 0.7077922077922078,
+    "precision": 0.5737704918032787,
+    "recall": 0.6481481481481481,
+    "f1": 0.6086956521739131,
+    "roc_auc": 0.7727777777777778
+  },
+  "best_params": {
+    "clf__var_smoothing": 1e-09
+  }
+}

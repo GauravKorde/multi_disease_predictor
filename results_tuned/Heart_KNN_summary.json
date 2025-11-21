@@ -1,0 +1,16 @@
+{
+  "dataset": "Heart",
+  "model": "KNN",
+  "metrics": {
+    "accuracy": 0.85,
+    "precision": 1.0,
+    "recall": 0.6785714285714286,
+    "f1": 0.8085106382978723,
+    "roc_auc": 0.9698660714285714
+  },
+  "best_params": {
+    "clf__n_neighbors": 9,
+    "clf__p": 1,
+    "clf__weights": "distance"
+  }
+}

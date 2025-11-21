@@ -1,0 +1,131 @@
+[2025-11-21 01:56:31] START GRID SEARCH PIPELINE
+[2025-11-21 01:56:31] Loading dataset Diabetes from C:\Users\HP\multi_disease_predictor\data\diabetes.csv
+[2025-11-21 01:56:31] Diabetes loaded. Shape: (768, 9). Building preprocessor.
+[2025-11-21 01:56:31] Numeric cols: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[2025-11-21 01:56:31] Categorical cols: []
+[2025-11-21 01:56:31] Split: Train (614, 8), Test (154, 8)
+[2025-11-21 01:56:31] --- GridSearch for Diabetes :: LogisticRegression START ---
+[2025-11-21 01:56:38] --- GridSearch for Diabetes :: LogisticRegression DONE in 0.12 min ---
+[2025-11-21 01:56:38] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_LogisticRegression_tuned.pkl
+[2025-11-21 01:56:38] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_LogisticRegression_preds.csv
+[2025-11-21 01:56:38] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_LogisticRegression_summary.json
+[2025-11-21 01:56:38] --- GridSearch for Diabetes :: GaussianNB START ---
+[2025-11-21 01:56:38] --- GridSearch for Diabetes :: GaussianNB DONE in 0.01 min ---
+[2025-11-21 01:56:38] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_GaussianNB_tuned.pkl
+[2025-11-21 01:56:38] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_GaussianNB_preds.csv
+[2025-11-21 01:56:38] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_GaussianNB_summary.json
+[2025-11-21 01:56:38] --- GridSearch for Diabetes :: KNN START ---
+[2025-11-21 01:56:40] --- GridSearch for Diabetes :: KNN DONE in 0.02 min ---
+[2025-11-21 01:56:40] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_KNN_tuned.pkl
+[2025-11-21 01:56:40] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_KNN_preds.csv
+[2025-11-21 01:56:40] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_KNN_summary.json
+[2025-11-21 01:56:40] --- GridSearch for Diabetes :: DecisionTree START ---
+[2025-11-21 01:56:49] --- GridSearch for Diabetes :: DecisionTree DONE in 0.15 min ---
+[2025-11-21 01:56:49] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_DecisionTree_tuned.pkl
+[2025-11-21 01:56:49] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_DecisionTree_preds.csv
+[2025-11-21 01:56:49] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_DecisionTree_summary.json
+[2025-11-21 01:56:49] --- GridSearch for Diabetes :: RandomForest START ---
+[2025-11-21 02:01:31] --- GridSearch for Diabetes :: RandomForest DONE in 4.70 min ---
+[2025-11-21 02:01:31] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_RandomForest_tuned.pkl
+[2025-11-21 02:01:31] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_RandomForest_preds.csv
+[2025-11-21 02:01:31] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_RandomForest_summary.json
+[2025-11-21 02:01:31] --- GridSearch for Diabetes :: GradientBoosting START ---
+[2025-11-21 02:04:23] --- GridSearch for Diabetes :: GradientBoosting DONE in 2.86 min ---
+[2025-11-21 02:04:23] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_GradientBoosting_tuned.pkl
+[2025-11-21 02:04:23] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_GradientBoosting_preds.csv
+[2025-11-21 02:04:23] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_GradientBoosting_summary.json
+[2025-11-21 02:04:23] --- GridSearch for Diabetes :: XGBoost START ---
+[2025-11-21 02:08:40] --- GridSearch for Diabetes :: XGBoost DONE in 4.30 min ---
+[2025-11-21 02:08:40] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_XGBoost_tuned.pkl
+[2025-11-21 02:08:40] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_XGBoost_preds.csv
+[2025-11-21 02:08:40] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_XGBoost_summary.json
+[2025-11-21 02:08:40] --- GridSearch for Diabetes :: LightGBM START ---
+[2025-11-21 02:10:32] --- GridSearch for Diabetes :: LightGBM DONE in 1.85 min ---
+[2025-11-21 02:10:32] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_LightGBM_tuned.pkl
+[2025-11-21 02:10:32] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_LightGBM_preds.csv
+[2025-11-21 02:10:32] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_LightGBM_summary.json
+[2025-11-21 02:10:32] --- GridSearch for Diabetes :: CatBoost START ---
+[2025-11-21 02:18:38] --- GridSearch for Diabetes :: CatBoost DONE in 8.10 min ---
+[2025-11-21 02:18:38] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_CatBoost_tuned.pkl
+[2025-11-21 02:18:38] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_CatBoost_preds.csv
+[2025-11-21 02:18:38] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_CatBoost_summary.json
+[2025-11-21 02:18:38] --- GridSearch for Diabetes :: SVM START ---
+[2025-11-21 02:18:42] --- GridSearch for Diabetes :: SVM DONE in 0.07 min ---
+[2025-11-21 02:18:42] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\diabetes_SVM_tuned.pkl
+[2025-11-21 02:18:42] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_SVM_preds.csv
+[2025-11-21 02:18:42] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Diabetes_SVM_summary.json
+[2025-11-21 02:18:43] Saved metrics bar chart: C:\Users\HP\multi_disease_predictor\graphs_tuned\Diabetes_metrics_summary_tuned.png
+[2025-11-21 02:18:43] Saved ROC top3 chart: C:\Users\HP\multi_disease_predictor\graphs_tuned\Diabetes_roc_top3_tuned.png
+[2025-11-21 02:18:43] Saved dataset summary CSV for Diabetes
+[2025-11-21 02:18:43] Loading dataset Heart from C:\Users\HP\multi_disease_predictor\data\heart_cleveland_upload.csv
+[2025-11-21 02:18:43] Heart loaded. Shape: (297, 14). Building preprocessor.
+[2025-11-21 02:18:43] Numeric cols: ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal']
+[2025-11-21 02:18:43] Categorical cols: []
+[2025-11-21 02:18:43] Split: Train (237, 13), Test (60, 13)
+[2025-11-21 02:18:43] --- GridSearch for Heart :: LogisticRegression START ---
+[2025-11-21 02:18:44] --- GridSearch for Heart :: LogisticRegression DONE in 0.01 min ---
+[2025-11-21 02:18:44] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_LogisticRegression_tuned.pkl
+[2025-11-21 02:18:44] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_LogisticRegression_preds.csv
+[2025-11-21 02:18:44] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_LogisticRegression_summary.json
+[2025-11-21 02:18:44] --- GridSearch for Heart :: GaussianNB START ---
+[2025-11-21 02:18:44] --- GridSearch for Heart :: GaussianNB DONE in 0.00 min ---
+[2025-11-21 02:18:44] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_GaussianNB_tuned.pkl
+[2025-11-21 02:18:44] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_GaussianNB_preds.csv
+[2025-11-21 02:18:44] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_GaussianNB_summary.json
+[2025-11-21 02:18:44] --- GridSearch for Heart :: KNN START ---
+[2025-11-21 02:18:45] --- GridSearch for Heart :: KNN DONE in 0.02 min ---
+[2025-11-21 02:18:45] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_KNN_tuned.pkl
+[2025-11-21 02:18:45] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_KNN_preds.csv
+[2025-11-21 02:18:45] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_KNN_summary.json
+[2025-11-21 02:18:45] --- GridSearch for Heart :: DecisionTree START ---
+[2025-11-21 02:18:52] --- GridSearch for Heart :: DecisionTree DONE in 0.12 min ---
+[2025-11-21 02:18:52] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_DecisionTree_tuned.pkl
+[2025-11-21 02:18:52] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_DecisionTree_preds.csv
+[2025-11-21 02:18:52] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_DecisionTree_summary.json
+[2025-11-21 02:18:52] --- GridSearch for Heart :: RandomForest START ---
+[2025-11-21 02:22:10] --- GridSearch for Heart :: RandomForest DONE in 3.30 min ---
+[2025-11-21 02:22:10] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_RandomForest_tuned.pkl
+[2025-11-21 02:22:10] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_RandomForest_preds.csv
+[2025-11-21 02:22:10] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_RandomForest_summary.json
+[2025-11-21 02:22:10] --- GridSearch for Heart :: GradientBoosting START ---
+[2025-11-21 02:23:40] --- GridSearch for Heart :: GradientBoosting DONE in 1.49 min ---
+[2025-11-21 02:23:40] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_GradientBoosting_tuned.pkl
+[2025-11-21 02:23:40] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_GradientBoosting_preds.csv
+[2025-11-21 02:23:40] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_GradientBoosting_summary.json
+[2025-11-21 02:23:40] --- GridSearch for Heart :: XGBoost START ---
+[2025-11-21 02:25:49] --- GridSearch for Heart :: XGBoost DONE in 2.15 min ---
+[2025-11-21 02:25:49] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_XGBoost_tuned.pkl
+[2025-11-21 02:25:49] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_XGBoost_preds.csv
+[2025-11-21 02:25:49] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_XGBoost_summary.json
+[2025-11-21 02:25:49] --- GridSearch for Heart :: LightGBM START ---
+[2025-11-21 02:26:44] --- GridSearch for Heart :: LightGBM DONE in 0.91 min ---
+[2025-11-21 02:26:44] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_LightGBM_tuned.pkl
+[2025-11-21 02:26:44] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_LightGBM_preds.csv
+[2025-11-21 02:26:44] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_LightGBM_summary.json
+[2025-11-21 02:26:44] --- GridSearch for Heart :: CatBoost START ---
+[2025-11-21 02:30:51] --- GridSearch for Heart :: CatBoost DONE in 4.12 min ---
+[2025-11-21 02:30:51] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_CatBoost_tuned.pkl
+[2025-11-21 02:30:51] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_CatBoost_preds.csv
+[2025-11-21 02:30:51] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_CatBoost_summary.json
+[2025-11-21 02:30:51] --- GridSearch for Heart :: SVM START ---
+[2025-11-21 02:30:53] --- GridSearch for Heart :: SVM DONE in 0.03 min ---
+[2025-11-21 02:30:53] Saved tuned model: C:\Users\HP\multi_disease_predictor\models_tuned\heart_SVM_tuned.pkl
+[2025-11-21 02:30:53] Saved preds CSV: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_SVM_preds.csv
+[2025-11-21 02:30:53] Saved summary JSON: C:\Users\HP\multi_disease_predictor\results_tuned\Heart_SVM_summary.json
+[2025-11-21 02:30:53] Saved metrics bar chart: C:\Users\HP\multi_disease_predictor\graphs_tuned\Heart_metrics_summary_tuned.png
+[2025-11-21 02:30:54] Saved ROC top3 chart: C:\Users\HP\multi_disease_predictor\graphs_tuned\Heart_roc_top3_tuned.png
+[2025-11-21 02:30:54] Saved dataset summary CSV for Heart
+[2025-11-21 02:30:54] Loading dataset Liver from C:\Users\HP\multi_disease_predictor\data\indian_liver_patient.csv
+[2025-11-21 02:30:54] Liver loaded. Shape: (583, 11). Building preprocessor.
+[2025-11-21 02:30:54] Fatal error for dataset Liver: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+[2025-11-21 02:30:54] Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_15204\1146014779.py", line 70, in run_all
+    preproc, num_cols, cat_cols = build_preprocessor(X)
+                                  ~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_15204\2022663683.py", line 45, in build_preprocessor
+    ("ohe", OneHotEncoder(handle_unknown="ignore", sparse=False))
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+
+[2025-11-21 02:30:54] Saved aggregated results: C:\Users\HP\multi_disease_predictor\results_tuned\all_datasets_models_summary_tuned.csv
+[2025-11-21 02:30:54] ALL DONE. Total time: 34.38 minutes
